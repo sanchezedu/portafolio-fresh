@@ -37,55 +37,55 @@ function App() {
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="text-xl font-bold">
             <span className="text-gray-900">Edu</span>
-            <span className="text-pink-600">.dev</span>
+            <span className="text-cyan-500">.dev</span>
           </div>
           <nav className="flex items-center gap-6">
-            <a href="#proyectos" className="text-gray-600 hover:text-pink-600 text-sm font-medium">Proyectos</a>
-            <a href="#servicios" className="text-gray-600 hover:text-pink-600 text-sm font-medium">Servicios</a>
-            <a href="#contacto" className="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full text-sm font-medium">Contactar</a>
+            <a href="#proyectos" className="text-gray-600 hover:text-cyan-500 text-sm font-medium">Proyectos</a>
+            <a href="#servicios" className="text-gray-600 hover:text-cyan-500 text-sm font-medium">Servicios</a>
+            <a href="#contacto" className="bg-cyan-500 hover:bg-cyan-600 text-white px-5 py-2 rounded-full text-sm font-medium">Contactar</a>
           </nav>
         </div>
       </header>
 
       {/* HERO */}
-      <section className="pt-16 min-h-[80vh] flex items-center bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600">
+      <section className="pt-16 min-h-[80vh] flex items-center bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-5xl mx-auto px-6 w-full">
           <div className="grid md:grid-cols-2 gap-10 items-center py-12">
             <div className="text-white space-y-5">
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/20 rounded-full text-sm">
-                <span className="w-2 h-2 bg-green-400 rounded-full"></span>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-cyan-500/20 border border-cyan-500/30 rounded-full text-sm">
+                <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
                 Disponible para proyectos
               </div>
               
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                Hola, soy <span className="text-yellow-300">Edu</span>
+                Hola, soy <span className="text-cyan-400">Edu</span>
                 <br/>
                 Desarrollador Full Stack
               </h1>
               
-              <p className="text-white/90 max-w-xs">
+              <p className="text-gray-300 max-w-xs">
                 Creo experiencias digitales modernas y efectivas.
               </p>
               
               <div className="flex gap-3">
-                <a href="#proyectos" className="bg-white text-pink-600 px-6 py-2.5 rounded-full font-semibold text-sm">Ver Proyectos</a>
-                <a href="#contacto" className="border border-white/40 text-white px-6 py-2.5 rounded-full font-medium text-sm">Contactar</a>
+                <a href="#proyectos" className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2.5 rounded-full font-semibold text-sm">Ver Proyectos</a>
+                <a href="#contacto" className="border border-gray-600 text-gray-300 hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm">Contactar</a>
               </div>
               
               <div className="flex gap-6 pt-3">
-                <div><div className="text-2xl font-bold">11+</div><div className="text-white/70 text-sm">Proyectos</div></div>
-                <div><div className="text-2xl font-bold">100%</div><div className="text-white/70 text-sm">Responsive</div></div>
-                <div><div className="text-2xl font-bold">5+</div><div className="text-white/70 text-sm">Años</div></div>
+                <div><div className="text-2xl font-bold">11+</div><div className="text-gray-400 text-sm">Proyectos</div></div>
+                <div><div className="text-2xl font-bold">100%</div><div className="text-gray-400 text-sm">Responsive</div></div>
+                <div><div className="text-2xl font-bold">5+</div><div className="text-gray-400 text-sm">Años</div></div>
               </div>
             </div>
             
             <div className="hidden md:flex justify-center">
               <div className="relative">
-                <div className="w-56 h-56 bg-white/20 rounded-full blur-[50px]"></div>
+                <div className="w-56 h-56 bg-cyan-500/20 rounded-full blur-[50px]"></div>
                 <div className="relative bg-white rounded-2xl p-5 shadow-xl text-center">
-                  <div className="w-20 h-20 mx-auto bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-3xl mb-3">💻</div>
+                  <div className="w-20 h-20 mx-auto bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-full flex items-center justify-center text-3xl mb-3">💻</div>
                   <div className="text-base font-bold text-gray-900">Edu.dev</div>
-                  <div className="text-pink-600 text-sm">Full Stack Developer</div>
+                  <div className="text-cyan-600 text-sm">Full Stack Developer</div>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ function App() {
       </section>
 
       {/* TECHNOLOGIES */}
-      <section className="py-8 bg-gray-100 border-y border-gray-200">
+      <section className="py-8 bg-gray-50 border-y border-gray-200">
         <div className="max-w-5xl mx-auto px-6">
           <div className="flex flex-wrap justify-center gap-2">
             {technologies.map((tech, i) => (
@@ -108,7 +108,7 @@ function App() {
       <section id="servicios" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900">Mis <span className="text-pink-600">Servicios</span></h2>
+            <h2 className="text-3xl font-bold text-gray-900">Mis <span className="text-cyan-500">Servicios</span></h2>
             <p className="text-gray-500 mt-1">Lo que puedo ofrecerte</p>
           </div>
           
@@ -127,7 +127,7 @@ function App() {
       <section id="proyectos" className="py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900">Mis <span className="text-pink-600">Proyectos</span></h2>
+            <h2 className="text-3xl font-bold text-gray-900">Mis <span className="text-cyan-500">Proyectos</span></h2>
             <p className="text-gray-500 mt-1">Landing pages profesionales</p>
           </div>
           
@@ -155,11 +155,11 @@ function App() {
       </section>
 
       {/* CTA */}
-      <section id="contacto" className="py-14 bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600">
+      <section id="contacto" className="py-14 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-white mb-2">¿Listo para trabajar juntos?</h2>
-          <p className="text-white/90 mb-5">Contáctame y hagamos tu proyecto realidad</p>
-          <a href="mailto:edu@local.dev" className="inline-block bg-white text-pink-600 px-8 py-3 rounded-full font-semibold">Enviar Email</a>
+          <p className="text-gray-400 mb-5">Contáctame y hagamos tu proyecto realidad</p>
+          <a href="mailto:edu@local.dev" className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 rounded-full font-semibold">Enviar Email</a>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ function App() {
             <div>
               <div className="text-lg font-bold mb-1">
                 <span className="text-gray-900">Edu</span>
-                <span className="text-pink-600">.dev</span>
+                <span className="text-cyan-500">.dev</span>
               </div>
               <p className="text-gray-500 text-sm">Desarrollo Web</p>
             </div>
@@ -181,9 +181,9 @@ function App() {
             <div>
               <h4 className="font-semibold text-gray-900 mb-1">Links</h4>
               <div className="flex flex-col gap-0.5">
-                <a href="#proyectos" className="text-gray-500 hover:text-pink-600 text-sm">Proyectos</a>
-                <a href="#servicios" className="text-gray-500 hover:text-pink-600 text-sm">Servicios</a>
-                <a href="#contacto" className="text-gray-500 hover:text-pink-600 text-sm">Contacto</a>
+                <a href="#proyectos" className="text-gray-500 hover:text-cyan-500 text-sm">Proyectos</a>
+                <a href="#servicios" className="text-gray-500 hover:text-cyan-500 text-sm">Servicios</a>
+                <a href="#contacto" className="text-gray-500 hover:text-cyan-500 text-sm">Contacto</a>
               </div>
             </div>
           </div>
